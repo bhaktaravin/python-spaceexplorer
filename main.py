@@ -2,10 +2,11 @@ import streamlit as st
 import requests
 from db_utils import get_db_connection, get_cached_result, cache_result
 from datetime import datetime
+import os
 
 
+API_KEY=os.environ.get("API_KEY")
 
-API_KEY=${{ API_KEY}}
 
 st.set_page_config(page_title="Space Explorer", page_icon=":rocket:", layout="wide")
 
