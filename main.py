@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 
-API_KEY="EsPMjQrG3G1RMVIthcwXpx3baAJyR2edWwQ4Bg1e"
+API_KEY=${{ API_KEY}}
 
 st.set_page_config(page_title="Space Explorer", page_icon=":rocket:", layout="wide")
 
